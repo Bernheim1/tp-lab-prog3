@@ -1,5 +1,6 @@
 <?php
     require_once("./fabrica.php");
+    include_once("./validarSesion.php");
 ?>
 
 <!DOCTYPE html>
@@ -62,7 +63,7 @@
                 }
 
                 fclose($ar);
-                echo("<a href='../index.html'>Inicio</a>");
+                echo("<a href='../index.php'>Inicio</a>");
             }
         ?>
         <tr>
@@ -72,7 +73,7 @@
         </tr>
     </table>
     
-    <a href="../index.html">Alta de empleados</a>
-    <a href="./backend/cerrarSesion.php">Cerrar sesion</a>
+    <a href="../index.php">Alta de empleados</a>
+    <a href="./cerrarSesion.php">Cerrar sesion</a>
 </body>
 </html>

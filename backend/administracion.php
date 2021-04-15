@@ -54,7 +54,7 @@
         }
         else
         {
-            echo "Se produjo un error <a href='index.html'>Inicio</a>";
+            echo "Se produjo un error <a href='index.php'>Inicio</a>";
         }
     ?>
 

@@ -114,6 +114,13 @@
                 <td>Noche</td>
             </tr>
             <tr>
+                <td style="text-align:left;padding-left:15px" colspan="2">Foto: </td>
+                <td>
+                    <input type="file" name="inputFoto" id="inputFoto">
+                    <span id="spanFoto" style="display: none;">*</span>
+                </td>
+            </tr>
+            <tr>
                 <td style="text-align:left;padding-left:15px" colspan="5">
                     <hr>
                 </td>

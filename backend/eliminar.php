@@ -46,7 +46,7 @@
                             break;
                         }else{
                             echo "No se pudo eliminiar el empleado de la lista";
-                            echo "<a href='../index.html'>Inicio</a>";
+                            echo "<a href='../index.php'>Inicio</a>";
                             break;
                         }
                 }
